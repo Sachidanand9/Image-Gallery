@@ -33,7 +33,7 @@ export default function GetImages() {
         ) : (
           <section className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 pb-20 lg:container">
             {images.map((image) => (
-              <Article key={image.id} {...image} />
+              <Article  key={image.id}{...image} />
             ))}
           </section>
         )}
